@@ -1,0 +1,97 @@
+/* pages/give/give.wxss */
+page{
+  background-color: #F2EEEE;
+}
+.header{
+  width: 750rpx;
+  height: 88rpx;
+  background-color: #FFFFFF;
+}
+.img image{
+  width: 34rpx;
+  height: 34rpx;
+  margin-left: 33rpx;
+  margin-top: 22rpx;
+   float: left;
+}
+/*头部中字体*/
+.header text{
+  align-items: center;
+  float: right;
+  margin-right: 299rpx;
+  margin-top: 22rpx;
+  font-size: 32rpx;
+  font-style: "PingFangSC-Semibold";
+}
+/*点赞啥的 头部*/
+.title{
+  width: 750rpx;
+  height: 88rpx;
+  background-color: #FFFFFF;
+}
+.title .dz{
+  height: 78rpx;
+  width: 132rpx;
+  float: left;
+  margin-left: 158rpx;
+  margin-top: 10rpx;
+  color: #F15359;
+   border-bottom:2px solid #F15359;
+   /* background-color: red; */
+}
+.title .dz text{
+  font-size: 28rpx;
+  padding-left: 30rpx;
+}
+.title .hf{
+  font-size: 28rpx;
+  float: right;
+   margin-right: 158rpx;
+   margin-top: 20rpx;
+}
+.title .hf text{
+  font-size: 28rpx;
+   padding-left: 30rpx;
+}
+/* 点赞人数 加 时间*/
+.content {
+   width: 686rpx;
+   height: 140rpx;
+   background-color: #FFFFFF;
+   margin-left: 34rpx;
+   margin-top: 30rpx;
+  border-radius: 5px;
+  background-image:url(http://47.93.233.90/assets/bj.png);
+  background-repeat:no-repeat;
+   background-size:100% 100%;
+   -moz-background-size:100% 100%;
+}
+/*内容中的头像*/
+.avatar image{
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 30px;
+  float: left;
+  margin-top: 28rpx;
+  margin-left: 32rpx;
+}
+.con{
+  width: 400rpx;
+  height: 140rpx;
+}
+.name{
+   width: 400rpx;
+  height: 40rpx;
+  padding-top: 15rpx;
+}
+.name .username{
+  font-size: 28rpx;
+  padding-left: 20rpx;
+  font-style: PingFang-SC-Regular;
+  color: #6E6E6E;
+}
+.name .time{
+   padding-left: 30rpx;
+   font-size: 24rpx;
+   color: #B7B7B7;
+}

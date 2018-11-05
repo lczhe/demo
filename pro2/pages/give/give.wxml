@@ -1,0 +1,16 @@
+<!--pages/give/give.wxml-->
+<view class='header'>
+<view class='img'><image src='http://47.93.233.90/assets/ht_1.png'></image></view>
+<view><text>我的消息</text></view>
+</view>
+<view class='title'>
+<view class='dz'  bindtap="aa"><text>点赞</text></view><view class='hf' bindtap='hf'><text>回复</text></view>
+</view>
+
+<view class='content'>
+  <view class='avatar'><image src='http://47.93.233.90/assets/tx.png'></image></view>
+  <view class='con'>
+    <view class='name'><text class='username'>三河老同</text><text class='time'>08-07</text></view>
+    <view class='name'><text class='username'>赞了你的评论</text></view>
+  </view>
+</view>

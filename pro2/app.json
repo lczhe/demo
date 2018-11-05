@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/reply/reply",
+    "pages/give/give",
+    "pages/comment/comment"
+    
+ 
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#4A90E2",
+    "navigationBarTextStyle": "black"
+  }
+}

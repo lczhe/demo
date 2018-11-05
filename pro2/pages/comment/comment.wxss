@@ -1,0 +1,228 @@
+/* pages/comment/comment.wxss */
+.header{
+  width: 750rpx;
+  height: 88rpx;
+   border-bottom:1px solid #BAB6B7;
+}
+.img image{
+  width: 34rpx;
+  height: 34rpx;
+  margin-left: 33rpx;
+  margin-top: 22rpx;
+   float: left;
+}
+/*头部中字体*/
+.header text{
+  align-items: center;
+  float: right;
+  margin-right: 299rpx;
+  margin-top: 22rpx;
+  font-size: 32rpx;
+  font-style: "PingFangSC-Semibold";
+}
+.content{
+  width: 750rpx;
+  height: 268rpx;
+  margin-top: 22rpx;
+   border-bottom:20rpx solid #EFEFEF;
+   margin-bottom: 15rpx;
+}
+/*头部*/
+.content .top{
+  width: 720rpx;
+  height: 48rpx;
+  margin-left: 30rpx; 
+}
+/*头部中头像*/
+.content .top image{
+   border-radius: 5px;
+   width: 48rpx;
+   height: 48rpx;
+   float: left;
+}
+.content .top .name{
+   height: 40rpx;
+   font-size: 28rpx;
+    font-style: "PingFang-SC-Medium";
+   color: #9A9A9A;
+   margin-top: 8rpx;
+   margin-left: 18rpx;
+  float: left;  
+}
+.content .top .time{
+  height: 34rpx;
+  font-size: 24rpx;
+  font-style: "PingFang-SC-Regular";
+   color: #C2C2C2;
+   margin-left: 18rpx;
+}
+/*赞*/
+.content .zan{
+  width: 720rpx;
+  height: 34rpx;
+  margin-left: 30rpx; 
+}
+.content .zan text{
+   height: 33rpx;
+  font-size: 28rpx;
+  float: right;
+  padding-right: 30rpx;
+  color: #FB5A01;
+}
+/*内容*/
+.content .center{
+  width: 680rpx;
+  height: 120rpx;
+  margin-left: 30rpx; 
+  
+}
+.content .center .title{
+   width: 580rpx;
+   font-size: 28rpx;
+   font-style: PingFangSC-Semibold;
+   color: #4A4A4A;
+   float: left;
+}
+.content .center .img{
+   width: 100rpx;
+  height:100rpx; 
+  float: right;
+}
+.content .center .img image{
+   width: 80rpx;
+  height: 70rpx; 
+
+  padding-left: 18rpx;
+  padding-bottom:40 rpx;
+}
+/*下面*/
+.content .tail{
+   width: 720rpx;
+   height: 40rpx;
+   margin-left: 30rpx; 
+   margin-top: 20rpx;
+}
+.content .tail .cha{
+      width: 150rpx;
+      height: 40rpx;
+      font-size: 28rpx;
+      color: #4A90E2;
+      font-style: PingFang-SC-Medium;
+      float: left;
+}
+.content .tail .fh{
+  width: 200rpx;
+  height: 34rpx;
+  float: right;
+  font-size: 24rpx;
+  font-style: PingFang-SC-Medium;
+  color: #B7B7B7;
+  margin-right: 30rpx;
+}
+.content .tail image{
+  width: 30rpx;
+  height: 28rpx;
+}
+.fh .zf{
+  float: left;
+}
+.fh .pl{
+    float: right;
+}
+.gong {
+  width: 750rpx;
+   height: 60rpx;
+    margin-bottom: 15rpx;
+}
+.gong text{
+  padding-left: 30rpx;
+  font-size: 28rpx;
+  color: #4C4C4C;
+  font-style: PingFangSC-Semibold;
+}
+
+
+.con{
+  width: 750rpx;
+  height: 180rpx;
+  margin-top: 22rpx;
+   border-bottom:1rpx solid #EFEFEF;
+}
+/*头部*/
+.content .top{
+  width: 720rpx;
+  height: 48rpx;
+  margin-left: 30rpx; 
+}
+/*下面头部中头像*/
+.con .top image{
+   border-radius: 5px;
+   width: 48rpx;
+   height: 48rpx;
+   float: left;
+   margin-left: 30rpx;
+}
+.con .top .name{
+   height: 40rpx;
+   font-size: 28rpx;
+    font-style: "PingFang-SC-Medium";
+   color: #9A9A9A;
+   margin-top: 8rpx;
+   margin-left: 18rpx;
+  float: left;  
+}
+.con .top .hf{
+   height: 40rpx;
+   font-size: 28rpx;
+    font-style: "PingFang-SC-Medium";
+   color: #4A4A4A;
+   margin-top: 8rpx;
+   margin-left: 18rpx;
+  float: left;  
+}
+.con .top .time{
+  height: 34rpx;
+  font-size: 24rpx;
+  font-style: "PingFang-SC-Regular";
+   color: #C2C2C2;
+   margin-left: 18rpx;
+}
+/*赞*/
+.con .zan{
+  width: 720rpx;
+  height: 34rpx;
+  margin-left: 30rpx; 
+}
+.con .zan text{
+   height: 33rpx;
+  font-size: 28rpx;
+  float: right;
+  padding-right: 30rpx;
+  color: #FB5A01;
+}
+/*内容*/
+.con .center{
+  width: 680rpx;
+  height: 120rpx;
+  margin-left: 30rpx; 
+  
+}
+.con .center .title{
+   width: 580rpx;
+   font-size: 28rpx;
+   font-style: PingFangSC-Semibold;
+   color: #4A4A4A;
+   float: left;
+}
+.con .center .img{
+   width: 100rpx;
+  height:100rpx; 
+  float: right;
+}
+.con .center .img image{
+   width: 80rpx;
+  height: 70rpx; 
+
+  padding-left: 18rpx;
+  padding-bottom:40 rpx;
+}

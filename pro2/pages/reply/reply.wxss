@@ -1,0 +1,114 @@
+/* pages/give/give.wxss */
+/*全局背景 */
+page{
+  background-color: #F2EEEE;
+}
+/*头部我的消息部分*/
+.header{
+  width: 750rpx;
+  height: 88rpx;
+   background-color: #FFFFFF;
+}
+/*最头部 的图片*/
+.img image{
+  width: 34rpx;
+  height: 34rpx;
+  margin-left: 33rpx;
+  margin-top: 22rpx;
+   float: left;
+}
+/*头部中 字体 我的消息*/
+.header text{
+  align-items: center;
+  float: right;
+  margin-right: 299rpx;
+  margin-top: 22rpx;
+  font-size: 32rpx;
+  font-style: "PingFangSC-Semibold";
+}
+/* 回复中 标题*/
+.title{
+  width: 750rpx;
+  height: 88rpx;
+   background-color: #FFFFFF;
+}
+/* 点赞的样式*/
+.title .dz{
+  height: 78rpx;
+  width: 132rpx;
+  float: left;
+  margin-left: 158rpx;
+  margin-top: 10rpx;
+
+}
+.title .dz text{
+  font-size: 28rpx;
+  padding-left: 30rpx;
+}
+/* 回复中的 样式*/
+.title .hf{
+   height: 78rpx;
+  width: 132rpx;
+  float: right;
+   margin-right: 158rpx;
+   margin-top: 10rpx;
+   color: #F15359;
+   border-bottom:2px solid #F15359;
+}
+.title .hf text{
+  font-size: 28rpx;
+   padding-left: 30rpx;
+}
+
+/* 点赞人数 加 时间的内容*/
+.content {
+   width: 686rpx;
+   height: 140rpx;
+   background-color: #FFFFFF;
+   margin-left: 34rpx;
+   margin-top: 30rpx;
+  border-radius: 5px;
+  background-image:url(http://47.93.233.90/assets/bj.png);
+  background-repeat:no-repeat;
+   background-size:100% 100%;
+   -moz-background-size:100% 100%;
+}
+/*内容中的头像*/
+.avatar image{
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 30px;
+  float: left;
+  margin-top: 28rpx;
+  margin-left: 32rpx;
+}
+/* 内容中的 名称时间 回复内容*/
+.con{
+  width: 400rpx;
+  height: 140rpx;
+}
+/*名称*/
+.name{
+   width: 400rpx;
+  height: 40rpx;
+  padding-top: 15rpx;
+}
+/*名称*/
+.name .username{
+  font-size: 28rpx;
+  padding-left: 20rpx;
+  font-style: PingFang-SC-Regular;
+  color: #6E6E6E;
+}
+/*时间*/
+.name .time{
+   padding-left: 30rpx;
+   font-size: 24rpx;
+   color: #B7B7B7;
+}
+
+.name .hf{
+  padding-left: 15rpx;
+  font-size: 28rpx;
+   color: #4A4A4A;
+}
