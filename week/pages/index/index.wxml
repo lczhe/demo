@@ -1,0 +1,41 @@
+<!--pages/index/index.wxml-->
+<view class='content'>
+    <view class='show-con'>
+        <view class='result'>
+        <view class='resu'><block wx:for = '{{msg}}' wx:for-tiem='itme'>{{item}}</block></view>
+       <block wx:if="{{ch == '1'}}">{{content}}</block>
+       <block wx:elif="{{ch == 0}}">{{data}}</block>
+        </view>
+    </view>
+
+    <view class='btn-group{'>
+        <view class='tiem' bindtap='del'  id='CE'>CE</view>
+        <view class='tiem'  bindtap='del' id='C'>C</view>
+        <view class='tiem'  bindtap='del' id='×'>×</view>
+        <view class='tiem groun' bindtap='lab' id='÷'>÷</view>
+    </view>
+     <view class='ground_d'>
+        <view class='tiem'  bindtap='shu' id='7'>7</view>
+        <view class='tiem'  bindtap='shu' id='8'>8</view>
+        <view class='tiem'  bindtap='shu' id='9'>9</view>
+        <view class='tiem groun'  bindtap='lab' id='×'>×</view>
+    </view>
+     <view class='ground_d'>
+        <view class='tiem'  bindtap='shu' id='4'>4</view>
+        <view class='tiem'  bindtap='shu' id='5'>5</view>
+        <view class='tiem'  bindtap='shu' id='6'>6</view>
+        <view class='tiem groun'  bindtap='lab' id='-'>-</view>
+    </view>
+     <view class='ground_d'>
+        <view class='tiem'  bindtap='shu' id='1'>1</view>
+        <view class='tiem'  bindtap='shu' id='2'>2</view>
+        <view class='tiem'  bindtap='shu' id='3'>3</view>
+        <view class='tiem groun'  bindtap='lab' id='+'>+</view>
+    </view> 
+    <view class='ground_d'>
+        <view class='tiem'>±</view>
+        <view class='tiem'  bindtap='shu' id='0'>0</view>
+        <view class='tiem'  bindtap='shu' id='.'>.</view>
+        <view class='tiem groun'  bindtap='lab' id='='>=</view>
+    </view>
+</view>
